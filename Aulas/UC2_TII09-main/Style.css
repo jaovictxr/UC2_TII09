@@ -1,0 +1,56 @@
+header {
+    background-color: #0400ffb4;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+} 
+
+nav ul li {
+    color: white;
+    display: inline;
+    margin-right: 15px;
+}
+
+
+/* Estilos para conteúdo principal */
+
+main {
+    margin: 15px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Estilos para conteúdo complementar (aside) */
+
+aside {
+    background-color: #b4daff;
+    padding: 15px;
+    border-left: 5px solid #444;
+    border-radius: 10px;
+}
+
+/* Estilos para rodapé */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
