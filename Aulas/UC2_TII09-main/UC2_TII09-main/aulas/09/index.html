@@ -22,7 +22,7 @@
         <section>
             <h2> Introdução à tag &lt img &gt </h2>
                 <p> 
-                    A tag img em HTML, é usada para incorporar imagens em uma
+                    A tag &ltimg&gt em HTML, é usada para incorporar imagens em uma
                     página web. Ela é um elemento vazio, ou seja, não possui 
                     uma tag de fechamento e contém apenas atributos que definem o 
                     conteúdo visual.
@@ -34,15 +34,59 @@
                         Pode ser uma URL externa ou um caminho relativo dentro do servidor.
                     <div class="card">      
                         <h4> Exemplo 1: </h4>
-                        <pre> <code> CÓDIGO VAI AQUI </code> </pre>
+                        <pre> <code> &ltimg src="./IMG1.jpg" style="width: 100%;"&gt </code> </pre>
                         <P> Resultado:</P>
                         <img src="IMG1.jpg" style="width: 100%">
                     </div> 
                     </li>
+                    <li>
+                        <em> alt (alternative text) </em>: Fornece um texto alternativo para 
+                        ser exibido caso a imagem não possa ser carregada. Ele também melhora a
+                        acessibilidade para leitores de tela.
+
+                    <div class=" card">
+                        <h4> Exemplo 2:  </h4>
+                        <pre><code>CÓDIGO VAI AQUI</code></pre>
+                        <p> Resultado: </p>
+                        <img src="../09/nanatsu.gif" alt=" MELIODAS SOLANDO MALUCO AZUL" style="width: 100%;">
+                    </div>
+
+                    </li>
+                    <li>
+                        <em>src</em> também pode ser de um link externo:
+                        <div class="card">
+                            <h4>Exemplo 3:</h4>
+                            <pre><code>CÓDIGO VAI AQUI</code></pre>
+                            <p>Resultado:</p>
+                            <img src="https://pa1.aminoapps.com/6603/90787361ea980ae5e1866161d470f0be4f9caf37_hq.gif" alt="GOSTOSA FAZENDO CUBO" style="width: 100%;">
+                        </div>
+                    </li>
                    
                 </ul>
         </section>
+        <aside>
+            <h3>Tipos Comuns de Imagens</h3>
+            <p>Os formatos de imagns mais utilizados na web são:</p>
+            <ul>
+                <li>
+                    <strong>(.jpg ou .jpeg):</strong>
+                    Formato utilizado amplamente para fotografias e imagens com muitos
+                    detalhes e cores. Possui compressão com perda de qualidade (lossy).
+                </li>
+                <li>
+                    <strong>(.png):</strong>
+                    Usado para imagens com fundo transparente ou que necessitam de alta qualidade,
+                    sem perda de detalhes. Utiliza compressão sem perda (lossless).
+                </li>
+                <li>
+                    <strong>GIF (.gif):</strong>
+                    Formato ideal para imagens animadas e pequenos ícones. Suporta transparência,
+                    mas tem um número limitdo de cores.
+                </li>
+            </ul>
+        </aside>
     </main>
     <!-- Conteúdo complementar -->
+
 </body>
 </html>
